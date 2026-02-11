@@ -229,7 +229,7 @@ response = agentcore_client.create_gateway_target(
 
 
 #################################################################################
-nasa_api_key = 'DHzXGyI5vLToaGDDE0bqjIpTDNjwGyixzZR09gjA'
+nasa_api_key = 'your_nasa_api_key'
 
 if not nasa_api_key:
     logger.error("NASA API Key is required. Please run the cell above and enter your API key.")
